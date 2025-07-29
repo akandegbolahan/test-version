@@ -1,0 +1,147 @@
+/* 
+    Updated CSS to match revised class names 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.logo-label {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 40px;
+}
+
+.page-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.page-title {
+    margin: 20px;
+    font-size: 3rem;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.row {
+    height: fit-content;
+    border-radius: 15px;
+    box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.form-section {
+    margin: 30px 0;
+}
+
+.section-title {
+    margin: 20px 0 20px 15px;
+    font-size: 27px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+
+.transcript-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkbox-wrapper input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.price-tag {
+    flex: 1;
+    margin-left: 15px;
+    border-radius: 5px;
+    padding: 10px 0 10px 8px;
+    font-size: 20px;
+    background-color: #f7f7f7;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.service-note li {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.upload-group {
+    margin-bottom: 25px;
+}
+
+.upload-group input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#submitBtn {
+    width: 100%;
+    border: none;
+    font-size: 25px;
+    padding: 10px;
+    background: linear-gradient(135deg, #0554ff 0%, #2142fd, #0963ca 100%);
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
