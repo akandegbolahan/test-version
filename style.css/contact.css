@@ -158,7 +158,10 @@ body {
   font-size: 0.875rem;
   color: var(--gray);
 }
-
+.tel{
+  text-decoration: none;
+  color: white;
+}
 /* Accessibility & Responsiveness */
 @media (prefers-reduced-motion: reduce) {
   * {
