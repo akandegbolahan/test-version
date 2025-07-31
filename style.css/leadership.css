@@ -94,6 +94,19 @@
 .footer-bottom p{
     text-align: center;
 }
+/* Responsive Design */
+@media (max-width: 1024px) {
+
+  .container h2 {
+    font-size: 35px;
+    padding: 30px;
+  }
+
+  .section-title h2 {
+    font-size: 35px;
+    padding: 30px;
+  }
+}
 
 @media (max-width: 768px) {
     .leadership-top {
@@ -108,9 +121,25 @@
       gap: 1.5rem;
       justify-items: center;
     }
+    .card {
+      max-width: 300px;
+    }
+  
+    .card-image {
+      height: 350px;
+    }
+  }
   
   @media (max-width: 480px) {
-
+    .container h2,
+    .section-title h2 {
+      font-size: 26px;
+      padding: 20px;
+    }
+  
+    .section-title p {
+      padding: 0 20px 20px;
+    }
     .leadership-top {
       flex-direction: row;
       flex-wrap: wrap;
@@ -121,13 +150,48 @@
       grid-template-columns: 1fr;
       gap: 1.2rem;
     }
+    .card {
+      max-width: 280px;
+    }
   
+    .card-image {
+      height: 300px;
+    }
   
+    .card-content {
+      padding: 20px;
+    }
+  
+    .card-name {
+      font-size: 14px;
+    }
+  
+    .card-description {
+      font-size: 0.9rem;
+    }
+  
+    
+  }
+
+  @media (max-width: 360px) {
+   
+  
+    .container h2,
+    .section-title h2 {
+      font-size: 24px;
+      padding: 15px;
+    }
+  
+   
+    
+  
+    .card {
+      max-width: 260px;
+    }
   
     .leadership-top {
       width: 80%;
     }
   
-    
+ 
   }
-}
