@@ -130,7 +130,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 390px) and (max-width: 430px) {
   .container h2,
   .section-title h2 {
     font-size: 26px;
@@ -190,7 +190,7 @@
   }
 
   .leadership-top {
-    width: 80%;
+    width: 79.9%;
   }
 
 
