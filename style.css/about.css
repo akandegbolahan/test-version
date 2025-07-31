@@ -62,30 +62,30 @@ margin: 0px 0px 50px;
 }
 
 .about-container {
-max-width: 75%;
+max-width: 80%;
 margin: auto;
 display: flex;
 flex-wrap: wrap;
-gap: 20px;
+gap: 5px;
 align-items: center;
 }
 
 .about-images {
 position: relative;
-flex: 1;
+flex: 0.7;
 min-width: 300px;
 }
 
 .img-main {
 width: 90%;
-border-radius: 10px;
+border-radius: 15px;
 box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
 
 /* Text Content */
 .about-text {
-flex: 1;
+flex: 0.8;
 min-width: 300px;
 }
 
@@ -98,18 +98,17 @@ margin-bottom: 10px;
 }*/
 
 .about-text h2 {
-font-size: 30px;
+font-size: 25px;
 font-weight: bold;
 margin-bottom: 20px;
-
-color: #3b82f6;
+color: black;
 }
 
 .description {
 font-size: 16px;
 line-height: 1.7;
 margin-bottom: 30px;
-color: #666;
+color: #302e2e;
 }
 
 
@@ -119,15 +118,23 @@ color: #666;
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 gap: 3rem;
-margin-top: 3rem;
-}
+margin-top: 4rem;
+justify-content: center;
 
+}
+.icon {
+  text-align: center;
+  background: white;
+padding: 2.5rem;
+border-radius: 80px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 .mission-card {
 background: white;
 padding: 2.5rem;
 border-radius: 10px;
 box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-text-align: center;
 transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -147,10 +154,22 @@ color: #2563eb;
 margin-bottom: 1rem;
 } 
 .mission-card p {
-color: #666;
-line-height: 1.7;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #444;
+}
+/* List */
+.mission-card ul {
+  margin-top: 10px;
+  padding-left: 20px;
 }
 
+.mission-card ul li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #444;
+}
 /* Timeline */
 
 .container h2{
